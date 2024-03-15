@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+}
+#li3{
+    color: #0fe;
+}
+header{
+    color: #fff;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    border-bottom: 3px solid #0ef;
+    z-index: 100;
+    background-color: #1f242d;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+#logo{
+  font-size: 19px;
+  padding: 0px 10px;
+  
+}
+#logo img{
+    width: 185px;
+    height: 35px;
+}
+#menu{
+    padding: 9px 10px;
+    
+}
+#menu img{
+  width: 35px;
+  height:35px;
+  filter: invert(100%)
+}
+#slide{
+    width: 0px;
+    height: 100%;
+    background-color: #2f343d;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;    
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+    box-shadow: -1px -1px 2px black;
+}
+#slide div{
+     -webkit-user-select: none;
+     -webkit-touch-callout: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+      user-select: none;
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+    color: #14e0d3;
+    width: 150px;
+    height: 28px;
+    margin: 13px 20px;
+}
+#slide div img {
+    margin-right: 5px;
+    position: relative;
+    top: 3.5px;
+    width: 20px;
+    height :20px;
+    filter: invert(100%)
+    
+}
+#slide div:active{
+    color: #0fe;
+}
+#sidemen ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+#slidemen{
+    display: flex;
+}
+#li1:active{
+    color: #0fe;
+}
+#li2:active{
+    color: #0fe;
+}
+#li3:active{
+    color: #0fe;
+}
+#demo{
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+}
+#demo img {
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: linear-gradient(140deg, #1f242d, #414957);
+    padding: 25px;
+    height: 35%;
+    width: 100%;
+}
+#gallery img {
+    width: 90%;
+    height: 30%;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 20px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    box-shadow: 2px 2px 8px black;
+}
+ #hed3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 390px;
+            background-image: linear-gradient(140deg, #1f242d, #414957);   
+            overflow: hidden;
+        }
+        #hed3 img{
+            filter: invert(100%)
+        }
+        #hed3 h3{
+            color: #0fe;
+            letter-spacing: 2px;
+            display: inline-block;
+        }
+        #hed3 div{
+            color: white;
+            margin: 8px;
+            display: inline-block;
+        }
+        #hed3 div:active{
+            color: #0fe;
+        }
+        #link{
+            margin: 15px;
+            position: relative;
+            left:20px ;
+            margin-left: 0px;
+            display: inline-block;
+            width: 130px;
+            
+        }
+        #link div{
+            margin: 5px;
+            margin-left: 0px;
+        }
+        #link div{
+            margin-left: 0px;
+            
+        }
+        #link div img{
+            width: 21px;
+            height: 21px;
+            position: relative;
+            top: 4px;
+            margin-left: 0px;
+            margin-right: 8px;
+        }
+        #link h3{
+            position: relative;
+            top: 9px;
+            margin-bottom: 15px;
+            margin-top: 0px;
+        }
+        #contact {
+            margin: 15px;
+            position: relative;
+            left:20px ;
+            margin-left: 0px;
+            width: 270px;
+        }
+         #contact h3{
+            margin: 5px;
+            margin-left: 0px;
+        }
+        #contact div{
+            margin: 3px;
+            margin-left: 0px;
+            
+        }
+        #contact div img{
+            width: 23px;
+            height: 23px;
+            position: relative;
+            top: 6px;
+            margin-right: 5px;
+        }
+        #Follow{
+            margin: 15px;
+            position: relative;
+            left:20px ;
+            width: 120px;
+        }
+         #Follow h3{
+            margin: 7px;
+            margin-left: 0px;
+        }
+        #Follow div{
+            display: inline-block;
+            margin-left: 0px;
+        }
+        #Follow div img{
+            width: 25px;
+            height: 25px;
+            margin: -5px;
+            margin-left: 0px;
+            
+        }
+         #Fimg1:active{
+            filter: invert(32%) sepia(72%) saturate(1588%) hue-rotate(310deg) brightness(87%) contrast(103%);
+        }
+         #Fimg2:active{
+            filter: invert(33%) sepia(16%) saturate(2037%) hue-rotate(183deg) brightness(92%) contrast(88%);
+        }
+         #Fimg3:active{
+            filter: invert(47%) sepia(15%) saturate(1681%) hue-rotate(157deg) brightness(100%) contrast(102%);
+        }
+footer{
+    background-color: #1f242d;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div{
+    padding: 10px;
+    color: white;
+}
+footer img{
+    width: 170px;
+    height: 30px;
+    color: white;
+    margin-top: 3px;
+}
+@media only screen and (max-width:600px){
+    #sidemen{
+        display: none;
+    }
+}
+@media only screen and (max-width:3000px) and (min-width:600px){
+ #Fimg1:hover{
+            filter: invert(32%) sepia(72%) saturate(1588%) hue-rotate(310deg) brightness(87%) contrast(103%);
+        }
+         #Fimg2:hover{
+            filter: invert(33%) sepia(16%) saturate(2037%) hue-rotate(183deg) brightness(92%) contrast(88%);
+        }
+         #Fimg3:hover {
+            filter: invert(47%) sepia(15%) saturate(1681%) hue-rotate(157deg) brightness(100%) contrast(102%);
+        }
+#link div:hover {
+            color: #0fe;
+        }
+        #contact div:hover{
+            color: #0fe;
+        }
+#Follow{
+    position: relative;
+    left: -0.1%;
+    
+}
+#sidemen ul li {
+        cursor: pointer;
+    }
+  #Follow div img{
+  cursor: pointer;
+  }
+   #contact div{
+   cursor: pointer;
+   }
+   #link div{
+   cursor: pointer;
+   }
+#li1:hover{
+    color: #0fe;
+}
+#li2:hover{
+    color: #0fe;
+}
+#li3:hover{
+    color: #0fe;
+}
+#gallery{
+     flex-direction: row;
+     justify-content: space-around;
+}
+#gallery img{
+    width: 25%;
+    height: 30%;
+}
+#menu{
+    display: none;
+}
+#hed3{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     height: 170px;
+ }
+}

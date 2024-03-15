@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    
+    <link rel="icon" href="https://i.ibb.co/82fzDCk/IMG-20230529-210851.jpg" type="image/x-icon">
+     <link rel="stylesheet" href="gallery.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header id="hd">
+        
+        <nav>
+            <div id="logo"><img src="https://i.ibb.co/Tt2NDqq/Untitled-2-01.png" alt="logo" onclick="logo()"></div>
+            <div id="menu">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/free-menu-1768002-1502338.png?f=avif&w=512" alt="Menu" onclick="slider()">
+            </div>
+            
+            <div id="sidemen">
+                <ul>
+                    <li onclick="biodata()" id="li1">Biodata</li>
+                    <li onclick="resume()" id="li2">Resume</li>
+                    <li onclick="gallery()" id="li3">Gallery</li>
+                </ul>
+            </div>
+            
+        </nav>
+        
+    </header>
+    
+    <div id="slide">
+        <div onclick="biodata()">
+            <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/contact-book-87-762223.png?f=avif&w=512" alt="Gallery">
+            BIODATA</div>
+         <div onclick="resume()">
+             <img src="https://cdn-icons-png.flaticon.com/512/71/71200.png" alt="Gallery">
+             RESUME</div>
+          <div onclick="gallery()">
+              <img src="https://cdn-icons-png.flaticon.com/128/9131/9131580.png" alt="Gallery">
+              GALLERY</div>
+    </div>
+   <section id="opacity" onclick="close1()">
+    <section id="gallery">
+        <img src="https://i.ibb.co/dJqNCK6/IMG-20240314-122627.jpg" alt="error" data-aos="fade-up">
+        
+        
+        
+            <img src="https://i.ibb.co/zs8Bs4c/IMG-20240218-172127-536.jpg" alt="Error" data-aos="fade-up">
+           
+            
+            <img src="https://i.ibb.co/0nSzf5Y/Whats-App-Image-2024-03-14-at-12-30-27-1b8490d2.jpg" alt="Error" data-aos="fade-up">
+         
+        
+    </section>
+    
+    <section id="hed3">
+        
+        <div id="link" data-aos="fade-up">
+            
+            <h3>Quick Links</h3>
+            
+         <div onclick="resume()">
+             <img src="https://cdn-icons-png.flaticon.com/512/71/71200.png" alt="Gallery">  
+             RESUME</div>
+             
+             <div onclick="biodata()">
+            <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/contact-book-87-762223.png?f=avif&w=512" alt="Gallery">
+            BIODATA</div>
+            
+            <div onclick="gallery()">
+              <img src="https://cdn-icons-png.flaticon.com/128/9131/9131580.png" alt="Gallery">
+              GALLERY</div>
+              
+              </div>
+              
+             <div id="contact" data-aos="fade-up">
+                 
+             <h3>Contact</h3>
+             
+             <div onclick="maile()">
+            <img src="https://img.icons8.com/?size=512&id=jicLxt1sA2qa&format=png" alt="Gallery" id="mail">
+     dharparmar2004@gmail.com</div>
+            
+            <div onclick="mobile()">
+              <img src="https://img.icons8.com/?size=512&id=jShwZ2RCyPSO&format=png" alt="Gallery">
+             9173189378</div>  
+                
+              </div>   
+              
+            <div id="Follow" data-aos="fade-up">
+                 <h3>Follow On</h3>
+                 
+         <div onclick="instagram()">
+             <img src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-1464521-1239436.png?f=avif&w=512" alt="Gallery" id="Fimg1">  
+             </div>
+             
+             <div onclick="facebook()">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/free-facebook-social-media-fb-logo-square-44659.png?f=avif&w=512" alt="Gallery" id="Fimg2">
+            
+            </div>
+            <div>
+                 <img src="https://img.icons8.com/?size=512&id=8808&format=png" alt="LinkedIn" onclick="LinkedIn()" id="Fimg3">
+            </div>
+            
+            </div>
+        
+    </section>
+    <footer>
+        <div>
+            Copyright © 2023 Dharmik Parmar
+        </div>
+        <div><img src="https://i.ibb.co/Tt2NDqq/Untitled-2-01.png" alt="logo" onclick="logo()"></div>
+    </footer>
+    
+    </section>
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     
+    <script src="gallery.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+        <script>
+        AOS.init({
+            offset: 80,
+            duration: 800,
+        });
+        </script>
+</body>
+</html>
